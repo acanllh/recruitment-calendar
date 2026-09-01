@@ -1,0 +1,19 @@
+.venv/
+__pycache__/
+*.pyc
+~$*.xlsx
+*.tmp
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# 这些文件可能包含隐私信息，默认不上传。
+招聘日历.xlsx
+event_ids.json
+
+# 本地工具文件不需要发布到 GitHub Pages。
+generate_calendar.py
+update_calendar.bat
+requirements.txt
+README.md
